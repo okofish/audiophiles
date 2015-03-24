@@ -2,8 +2,9 @@ walk(document.body);
 
 function walk(node) 
 {
-	// I stole this function from here:
+	// panicsteve stole this function from here:
 	// http://is.gd/mwZp7E
+  // and i stole it from him
 	
 	var child, next;
 
@@ -31,10 +32,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\baudiophile\b/g, "deluded tool with too much money");
+	v = v.replace(/\baudiophiles\b/g, "deluded tools with too much money");
+	v = v.replace(/\bAudiophile\b/g, "Deluded tool with too much money");
+	v = v.replace(/\bAudiophiles\b/g, "Deluded tools with too much money");
 	
 	textNode.nodeValue = v;
 }
