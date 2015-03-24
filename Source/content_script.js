@@ -32,10 +32,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\baudiophile\b/g, "deluded tool with too much money");
-	v = v.replace(/\baudiophiles\b/g, "deluded tools with too much money");
-	v = v.replace(/\bAudiophile\b/g, "Deluded tool with too much money");
-	v = v.replace(/\bAudiophiles\b/g, "Deluded tools with too much money");
+	v = v.replace(/audiophile(?!s)/g, "deluded tool with too much money");
+	v = v.replace(/audiophiles/g, "deluded tools with too much money");
+	v = v.replace(/Audiophile(?!s)/g, "Deluded tool with too much money");
+	v = v.replace(/Audiophiles/g, "Deluded tools with too much money");
 	
 	textNode.nodeValue = v;
 }
