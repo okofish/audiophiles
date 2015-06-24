@@ -1,5 +1,6 @@
 audiophiles
 =============
+## [Download here](https://chrome.google.com/webstore/detail/audiophiles/ljfffioapjpopnnofkmcmleobcdjejlf?hl=en)
 
 Chrome extension that replaces occurrences of 'audiophile' with 'deluded tool with too much money'
 
